@@ -4,8 +4,6 @@ Modified Tarjan's Algorithm.
 
 ## Problem Description
 
-**Note:** Chapter 2 is a harder version of this problem.
-
 You're having a grand old time clicking through the rabbit hole that is your favorite online encyclopedia.
 
 The encyclopedia consists of **N** different web pages, numbered from **1** to **N**. There are **M** links present across the pages, the *i*-th of which is present on page **Aᵢ** and links to a different page **Bᵢ**. A page may include multiple links, including multiple leading to the same other page.
