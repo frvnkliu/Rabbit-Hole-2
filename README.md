@@ -16,3 +16,10 @@ Assuming you can choose which page you begin the session on, what’s the maximu
 ```cpp
 int getMaxVisitableWebpages(int N, int M, vector<int> A, vector<int> B);
 ```
+
+## Usage
+The first line contains an integer **N**
+
+The second line contains an integer **M**
+
+The third and fourth line contain **M** integers each corresponding to **Aᵢ** and **Bᵢ** 
