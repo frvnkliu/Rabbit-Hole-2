@@ -1,6 +1,6 @@
 # Rabbit Hole (Chapter 2)
 
-Modified Tarjan's Algorithm.
+Modified Tarjan's Algorithm solution to Meta Careers Page Coding Puzzle.
 
 ## Problem Description
 
