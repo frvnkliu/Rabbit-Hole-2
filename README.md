@@ -17,7 +17,7 @@ Assuming you can choose which page you begin the session on, what’s the maximu
 int getMaxVisitableWebpages(int N, int M, vector<int> A, vector<int> B);
 ```
 
-## Usage
+## Usage/Input
 The first line contains an integer **N**
 
 The second line contains an integer **M**
