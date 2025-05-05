@@ -22,4 +22,4 @@ The first line contains an integer **N**
 
 The second line contains an integer **M**
 
-The third and fourth line contain **M** integers each corresponding to **Aᵢ** and **Bᵢ** 
+The third and fourth line contain **M** integers each; corresponding to **Aᵢ** and **Bᵢ** 
