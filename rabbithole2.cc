@@ -16,9 +16,8 @@ struct vProp {
 int getVisitableWebpages(int v, int& index, vector<vProp>& vProps, stack<int>& S,  vector<unordered_set<int>>& adj){
   vProps[v].index = vProps[v].lowlink = index++; 
   
-  //max visitable of descendents of this SCC
-  int maxDesc = 0; 
-  int start = S.size();
+  int maxDesc = 0;   //max visitable of descendents of this SCC
+  int start = S.size(); 
   S.push(v);
   for(int w : adj[v]){
     if(!vProps[w].index){ 
@@ -35,7 +34,7 @@ int getVisitableWebpages(int v, int& index, vector<vProp>& vProps, stack<int>& S
 
   //Update all nodes in SCC rooted at v
   if(vProps[v].lowlink == vProps[v].index){
-    int currVisitable = maxDesc + S.size()-start; //visitable from current cycle
+    int currVisitable = maxDesc + (S.size()-start); //visitable from current cycle
     while(S.top() != v){
       vProps[S.top()].visitable =  currVisitable;
       S.pop();
